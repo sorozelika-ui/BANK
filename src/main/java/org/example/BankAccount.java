@@ -2,7 +2,7 @@ package org.example;
 
 // Classe parent représentant un compte bancaire.
 
-public class BankAccount {
+public abstract class BankAccount {
 
     // Numéro du compte
     protected String account;
@@ -43,4 +43,6 @@ public class BankAccount {
         System.out.println("Compte : " + account);
         System.out.println("Solde : " + balance + " FCFA");
     }
+
+    public abstract void affiche();
 }
