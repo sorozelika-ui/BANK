@@ -1,2 +1,5 @@
-public class CheckingAccount {
+package org.example;
+
+public class CheckingAccount extends BankAccount {
+
 }
