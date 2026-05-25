@@ -10,6 +10,6 @@ public class SavingAccount extends BankAccount {
 
     @Override
     public void affiche() {
-
+        super.affiche();
     }
 }

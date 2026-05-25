@@ -15,5 +15,22 @@ public class Main {
         // Création du certificat de dépôt
         COD cod =
                 new COD("COD001", 1000000);
+
+
+        // Affichage des informations
+        System.out.println(" COMPTE COURANT");
+        checking.affiche();
+
+        System.out.println("COMPTE EPARGNE");
+        savings.affiche();
+
+        System.out.println("CERTIFICAT DE DEPOT");
+        cod.affiche();
+
+        // Modification des attributs
+        savings.setBalance(900000);
+
+        System.out.println("Nouveau solde du compte épargne : " + savings.getBalance() + " FCFA");
     }
 }
+

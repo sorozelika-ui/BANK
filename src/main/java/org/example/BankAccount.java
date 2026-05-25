@@ -44,5 +44,8 @@ public abstract class BankAccount {
         System.out.println("Solde : " + balance + " FCFA");
     }
 
-    public abstract void affiche();
+    public void affiche() {
+        System.out.println("Compte : " + account);
+        System.out.println("Solde : " + balance + " FCFA");
+    }
 }

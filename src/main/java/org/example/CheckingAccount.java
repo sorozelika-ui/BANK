@@ -22,8 +22,16 @@ public class CheckingAccount extends org.example.BankAccount {
         this.limit = limit;
     }
 
+   /* @Override
+    public void affiche() {
+        System.out.println("Limite : " + limit + " FCFA");
+    }
+
+    */
+
     @Override
     public void affiche() {
+        super.affiche();
         System.out.println("Limite : " + limit + " FCFA");
     }
 
